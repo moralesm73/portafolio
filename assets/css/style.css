@@ -1,0 +1,36 @@
+html,body {background: #ffffff;margin: 0;font-family: 'Oswald', sans-serif;font-weight:400;}
+b{font-weight: 700;}
+h1{font-weight: 700;font-size: 4rem;}
+h1.titPizza{padding-right: 5rem;}
+h4 {font-weight: 500;}
+
+h5,h6{font-weight: 400;}
+
+p{font-weight: 300;}
+
+hr{border-top: 2px solid rgba(0,0,0,.8);}
+
+.borderMD{border-bottom:1px solid #fff;}
+
+.heroSection{background-image: url(../img/backHome.jpg);background-position: center;background-size: cover;padding: 18rem 0 5rem;}
+.heroSection .col-md-4:first-child h1{font-weight: 200;}
+
+.navbar-brand {font-family: 'Lobster', cursive;font-size: 35px;}
+.logoRicomida{font-family: 'Lobster', cursive;}
+
+.carousel-indicators{position: relative;margin-top: 15px;}
+.carousel-indicators li {background-color: #373A3C;width: 15px;height: 15px;border-radius: 15px;border: 0;}
+
+ .titReceta{font-weight: 700;}
+ .card-title{font-weight: 700;}
+
+ @media (min-width: 768px) and (max-width: 991px){
+ 	h1.titPizza {padding-right: 2rem;font-size: 2rem;}
+ 	.duracion{font-size: 1.3rem;}
+ }
+ @media (max-width: 767px){
+ 	h1.titPizza {padding-right: 0rem;font-size: 2rem;text-align: center;}
+ 	.duracion{font-size: 1.3rem;text-align: center;}
+ 	.boxCentrar{text-align: center;}
+ 	.borderMD{border-bottom:0px;}
+ }
