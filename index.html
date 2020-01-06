@@ -27,16 +27,16 @@
 			<div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
 				<ul class="navbar-nav mt-2 mt-lg-0 text-white">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Sobre Mí</a>
+						<a class="nav-link scroll-link" href="#About" data-id="about">Sobre Mí</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Experiencia</a>
+						<a class="nav-link scroll-link" href="#Experiencia" data-id="experiencia">Experiencia</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Trabajos</a>
+						<a class="nav-link scroll-link" href="#Trabajos" data-id="trabajos">Trabajos</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contacto</a>
+						<a class="nav-link scroll-link" href="#Contacto" data-id="contacto">Contacto</a>
 					</li>
 				</ul>
 			</div>
@@ -52,7 +52,7 @@
 		</div>
 	</section>
 
-	<section>
+	<section id="about" class="d-none d-md-block">
 		<div class="container">
 			<div class="row">
 				<div class="col py-5">
@@ -62,165 +62,157 @@
 		</div>
 	</section>
 
-	<section>
+	<section id="experiencia" class="py-5">
 		<div class="container">
 			<div class="row">
-				<div class="col">
+				<div class="col pb-5">
 					<h2 class="titulos">MI EXPERIENCIA</h2>
 				</div>
+				<div class="w-100"></div>
+				<div class="col-md-4 order-md-1 order-3 text-center">
+					<h3>Gubbins S.A</h3>
+					<p>2016 - 2017</p>
+					<p><em>Desarrollador Web</em></p>
+				</div>
+				<div class="col-md-4 order-md-2 order-2 text-center">
+					<h3>Agencia La Patota</h3>
+					<p>2017 - 2019</p>
+					<p><em>Desarrollador Front-End</em></p>
+				</div>
+				<div class="col-md-4 order-md-3 order-1 text-center">
+					<h3>Socofar S.A</h3>
+					<p>2019 - Hoy</p>
+					<p><em>Diseñador Webmaster</em></p>
+				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="container py-3">
-		<div class="row align-items-center">
-			<div class="col-md-6">
-				<img src="assets/img/principal.jpg" class="img-fluid">
-			</div>
-			<div class="col-md-6 boxCentrar">
-				<h1 class="titPizza">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
-				<hr class="my-4">
-				<h4 class="duracion"><b>110 MIN / 6 A 8 PORCIONES</b></h4>
-				<button type="button" class="btn btn-outline-dark" data-toggle="tooltip" data-placement="bottom" title="Presiona para enviar a tu correo">Enviar por correo</button>
-				<button type="button" class="btn btn-outline-dark" data-toggle="tooltip" data-placement="right" title="Agrega esta receta a tus favoritos">Añadir a favoritos</button>
-			</div>
-		</div>
+	<section id="trabajos" class="py-5 bg-danger">
+		<div class="container">
+			<div class="row">
+				<div class="col pb-5">
+					<h2 class="titulos">MIS ÚLTIMOS TRABAJOS</h2>
+				</div>
 
-		<div id="carrusel" class="carousel slide mt-5 d-none d-md-block" data-ride="carousel">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<div class="row">
-						<div class="col"><img src="assets/img/slider-1.png" class="img-fluid"></div>
-						<div class="col"><img src="assets/img/slider-2.png" class="img-fluid"></div>
-						<div class="col"><img src="assets/img/slider-3.png" class="img-fluid"></div>
-						<div class="col"><img src="assets/img/slider-4.png" class="img-fluid"></div>
+				<div class="w-100"></div>
+
+				<div class="col-lg-4 col-md-6 p-3">
+					<div class="card">
+						<a href="https://www.innovapresto.com/index.aspx" target="_blank"><img src="assets/img/proyecto05.jpg" class="card-img-top" alt="Innovapresto"></a>
+						<div class="card-body">
+							<h5 class="card-title">Innovapresto</h5>
+							<p class="card-text">Fintech que a través de créditos personales, de montos pequeños y medianos busca mejorar el acceso a bienes y servicios de los mexicanos.</p>
+						</div>
+						<div class="card-body">
+							<a href="https://www.innovapresto.com/index.aspx" class="card-link" target="_blank">Ver más</a>
+						</div>
 					</div>
 				</div>
-				<div class="carousel-item">
-					<div class="row">
-						<div class="col"><img src="assets/img/slider-5.png" class="img-fluid"></div>
-						<div class="col"><img src="assets/img/slider-6.png" class="img-fluid"></div>
-						<div class="col"><img src="assets/img/slider-7.png" class="img-fluid"></div>
-						<div class="col"><img src="assets/img/slider-8.png" class="img-fluid"></div>
+
+				<div class="col-lg-4 col-md-6 p-3">
+					<div class="card">
+						<a href="https://dzavala.cl/" target="_blank"><img src="assets/img/proyecto04.jpg" class="card-img-top" alt="DZavala"></a>
+						<div class="card-body">
+							<h5 class="card-title">DZavala</h5>
+							<p class="card-text">Proyecto inmobiliario en la comuna de Vitacura.</p>
+						</div>
+						
+						<div class="card-body">
+							<a href="https://dzavala.cl/" class="card-link" target="_blank">Ver más</a>
+						</div>
 					</div>
 				</div>
-			</div>
-			<ol class="carousel-indicators">
-				<li data-target="#carrusel" data-slide-to="0" class="active"></li>
-				<li data-target="#carrusel" data-slide-to="1"></li>
-			</ol>
-		</div>
 
-		<hr class="my-4 d-none d-md-block">
-
-		<div class="row mt-5 mt-md-0">
-			<div class="col-md-6">
-				<h4 class="titReceta"><u>INGREDIENTES</u></h4>
-				<p class="py-3">Masa</p>
-				<p>
-					20 gr de levadura seca instantánea<br>
-					1 cucharadita de azúcar<br>
-					500 ml agua tibia<br>
-					100 ml aceite vegetal<br>
-					4 cucharadas de aceite de oliva<br>
-					65 gr harina de maíz fina (chuchoca)<br>
-					2 cucharaditas de Salsa<br>
-					625 gr harina<br>
-					Salsa
-				</p>
-				<p>
-					5 cucharadas de aceite de oliva<br>
-					½ cebolla picada en cubos finos<br>
-					2 cucharaditas de sal<br>
-					3 cucharadas de Orégano Gourmet<br>
-					1 ½ cucharadas de Albahaca Gourmet<br>
-					2 tarro de tomates en cubos al natural<br>
-					2 cucharaditas de azúcar<br>
-					Relleno
-				</p>
-				<p>
-					½ cebolla, en cubos<br>
-					500 gr hojas de espinacas picadas<br>
-					400 gr de champiñones, laminados<br>
-					300 gr de queso mozarella.<br>
-					4 cucharadas queso parmesano
-				</p>
-			</div>
-			<div class="col-md-6">
-				<h4 class="titReceta"><u>PREPARACIÓN</u></h4>
-				<p class="mt-5">
-					1. Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos adicionales.
-				</p>
-				<p>
-					2. Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar.
-				</p>
-				<p>
-					3. Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el líquido que hayan votado los vegetales. Reservar.
-				</p>
-				<p>
-					4. Calentar el horno a 220C.
-				</p>
-				<p>
-					5. Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos pizza, tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente espolvorear el queso rallado.
-				</p>
-				<p>
-					6. Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y dorada. Esperar unos minutos antes de desmoldar.
-				</p>
-			</div>
-		</div>
-
-		<hr class="my-4">
-
-		<div class="row">
-			<div class="col-12">
-				<h1 class="text-center mb-5">RECETAS RELACIONADAS</h1>
-			</div>
-			<div class="col-md-4 mb-4 mb-md-0">
-				<div class="card">
-					<img src="assets/img/recipe-card-1.png" class="card-img-top">
-					<div class="card-body">
-						<h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
-						<p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+				<div class="col-lg-4 col-md-6 p-3">
+					<div class="card">
+						<a href="https://www.misganancias.cl/mc_index.aspx" target="_blank"><img src="assets/img/proyecto06.jpg" class="card-img-top" alt="Empanadas"></a>
+						<div class="card-body">
+							<h5 class="card-title">Mis Ganancias</h5>
+							<p class="card-text">Mis Ganancias es un facilitador de oportunidades de inversión en activos alternativos de deuda privada.</p>
+						</div>
+						
+						<div class="card-body">
+							<a href="https://www.misganancias.cl/mc_index.aspx" class="card-link" target="_blank">Ver más</a>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-4 mb-4 mb-md-0">
-				<div class="card">
-					<img src="assets/img/recipe-card-2.png" class="card-img-top">
-					<div class="card-body">
-						<h5 class="card-title">TIRAMISÚ</h5>
-						<p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+
+				<div class="col-lg-4 col-md-6 p-3">
+					<div class="card">
+						<a href="https://elrefugiopucon.cl/" target="_blank"><img src="assets/img/proyecto02.jpg" class="card-img-top" alt="El Refugio Pucón"></a>
+						<div class="card-body">
+							<h5 class="card-title">El Refugio Pucón</h5>
+							<p class="card-text">Proyecto inmobiliario en Pucón, a orillas del Lago Villarrica.</p>
+						</div>
+						
+						<div class="card-body">
+							<a href="https://elrefugiopucon.cl/" class="card-link" target="_blank">Ver más</a>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-4 mb-4 mb-md-0">
-				<div class="card">
-					<img src="assets/img/recipe-card-3.png" class="card-img-top">
-					<div class="card-body">
-						<h5 class="card-title">PLATEADA</h5>
-						<p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+
+				<div class="col-lg-4 col-md-6 p-3">
+					<div class="card">
+						<a href="https://www.puertasdechicureo.cl/" target="_blank"><img src="assets/img/proyecto01.jpg" class="card-img-top" alt="Puertas de Chicureo"></a>
+						<div class="card-body">
+							<h5 class="card-title">Puertas de Chicureo</h5>
+							<p class="card-text">StripCenter en Chicureo, que posee arriendo de oficinas y locales. Proyecto en crecimiento.</p>
+						</div>
+						
+						<div class="card-body">
+							<a href="https://www.puertasdechicureo.cl/" class="card-link" target="_blank">Ver más</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 p-3">
+					<div class="card">
+						<a href="http://www.condominiokaiken.cl/" target="_blank"><img src="assets/img/proyecto03.jpg" class="card-img-top" alt="Condominio Kaikén"></a>
+						<div class="card-body">
+							<h5 class="card-title">Condominio Kaikén</h5>
+							<p class="card-text">Proyecto inmobiliario de casas mediterráneas en Condominio, ubicado en el sector Chicureo.</p>
+						</div>
+						
+						<div class="card-body">
+							<a href="http://www.condominiokaiken.cl/" class="card-link" target="_blank">Ver más</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		
 	</section>
 
-	<footer class="text-center bg-dark text-white mt-5">
-		<div class="bg-danger p-5">
-			<div class="row justify-content-md-center">
-				<div class="col-12 mb-5">
-					<h3 class="text-white"><b>SUSCRÍBETE EN NUESTRO NEWSLETTER</b></h3>
-					<h5>y obtén las mejores recetas que tenemos en <span class="logoRicomida">Ricomida</span></h5>
+	<section id="contacto" class="my-5 py-5">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col pb-5">
+					<h2 class="titulos">CONTACTO</h2>
 				</div>
-				<div class="col-12">
-					<button type="button" class="btn btn-outline-light px-5">Empezar</button>
+
+				<div class="w-100"></div>
+
+				<div class="col">
+					<h4>¿Quieres saber más de mi?</h4>
+					<a role="button" class="btn btn-dark" href="https://matiasmorales402255.typeform.com/to/UkrcCI" target="_blank">Comenzar</a>
 				</div>
 			</div>
 		</div>
-		
-		<div class="logoFooter p-4">
-			<h3 class="logoRicomida m-0">Ricomida</h3>
+	</section>
+
+	<footer class="text-center bg-dark text-white mt-5 py-4">
+		<div class="container">
+			<div class="row no-gutters">
+				<div class="col-md-6"><h3 class="nombrePersonal">Matías Morales</h3></div>
+				<div class="col-md-6">
+					<div class="row no-gutters">
+						<div class="col text-center"><a href="https://github.com/moralesm73" target="_blank" class="text-white"><i class="fab fa-github fa-3x"></i></a></div>
+						<div class="col text-center"><a href="https://twitter.com/73Totthy" target="_blank" class="text-white"><i class="fab fa-twitter fa-3x"></i></a></div>
+						<div class="col text-center"><a href="https://www.youtube.com/channel/UCirPGHAIAdACyQSgj7ivDjA" target="_blank" class="text-white"><i class="fab fa-youtube fa-3x"></i></a></div>
+						<div class="col text-center"><a href="https://www.pinterest.cl/moralesmatias193/" target="_blank" class="text-white"><i class="fab fa-pinterest fa-3x"></i></a></div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</footer>
 
@@ -229,6 +221,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
