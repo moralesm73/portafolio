@@ -11,6 +11,7 @@ p{font-weight: 300;}
 hr{border-top: 2px solid rgba(0,0,0,.8);}
 
 .borderMD{border-bottom:1px solid #fff;}
+.titulos{font-size: 3.5rem; font-weight: 700;text-align: center;}
 
 .heroSection{background-image: url(../img/backHome.jpg);background-position: center;background-size: cover;padding: 18rem 0 5rem;}
 .heroSection .col-md-4:first-child h1{font-weight: 200;}
